@@ -9,11 +9,15 @@
 <body>
     <h1>Bem Vindo ao Formulário</h1>
     <form action="" method="get">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Campo obrigatório">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Campo obrigatório">
+        </fieldset>
 
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required>
