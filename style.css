@@ -20,8 +20,23 @@ fieldset{
     flex-direction: column;
     gap: 5px;
 }
+
 .iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+thead tr{
+    background-color: #e0d2d2;
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+tfoot{
+    text-align: center;
 }
