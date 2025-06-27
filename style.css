@@ -1,3 +1,9 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     text-align: center;
     color: #333;
@@ -39,4 +45,42 @@ caption{
 
 tfoot{
     text-align: center;
+}
+
+.img-front-end{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #333;
 }
