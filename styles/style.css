@@ -56,9 +56,16 @@ tfoot{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     background-color: chocolate;
     border-radius: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main{
+    margin-top: 150px; /* Adjusted for fixed nav */
+    margin-bottom: 50px; /* Adjusted for fixed footer */
 }
 
 .logo{
@@ -83,4 +90,21 @@ nav{
 .menu ul li a{
     text-decoration: none;
     color: #333;
+}
+
+.footer-home {
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cadastro {
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

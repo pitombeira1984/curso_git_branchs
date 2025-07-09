@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Front-end Cadastro</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="img-front-end" src="./img/img-front-end.jpg" alt="Logo do Boteco do Pitombeira">
+                <h1>Estudos Fron-End</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="home.html">Voltar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+            <h1>Cadasdro de Usuário</h1>
+        <div class="cadastro">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Informações de Login</legend>
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" name="username" required placeholder="Digite seu nome completo">
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" required placeholder="Digite sua idade">
+                </fieldset>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        
+    </main>
+        <footer class="footer-cadastro">
+            <div class="paragrafo-footer-cadastro">
+                <p>&copy; 2023 Boteco do Pitombeira. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Tiago Pitombeira</p>
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
